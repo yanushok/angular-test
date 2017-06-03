@@ -1,0 +1,11 @@
+.page-header {
+    @include main-padding;
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+
+    &__logo {
+        display: inline-block;
+    }
+}

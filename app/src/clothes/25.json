@@ -1,0 +1,14 @@
+{
+    "id": 5,
+    "title": "Nylon double-compartment backpack",
+    "sizes": [
+        "15L"
+    ],
+    "colors": [
+        "DodgerBlue",
+        "DimGray",
+        "DarkSlateBlue"
+    ],
+    "price": 79.95,
+    "image": "img/products/cn11714832.jpg"
+}

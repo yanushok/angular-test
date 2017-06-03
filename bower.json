@@ -1,0 +1,17 @@
+{
+  "name": "angular-test",
+  "description": "angular test work",
+  "authors": [
+    "Yanushok"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "slick-carousel": "^1.6.0",
+    "angular-resource": "^1.6.4",
+    "angular-slick-carousel": "^3.1.7"
+  }
+}

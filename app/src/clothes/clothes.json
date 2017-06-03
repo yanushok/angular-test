@@ -1,0 +1,351 @@
+{
+    "men": [
+        {
+            "id": 1,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "15L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        }
+    ],
+    "women": [
+        {
+            "id": 21,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 22,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 23,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 24,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 26,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 27,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 28,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": ""
+        }
+    ],
+    "children": [
+        {
+            "id": 41,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 42,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 43,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 44,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 45,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        },
+        {
+            "id": 46,
+            "title": "Classic stretch skinny fit khakis",
+            "sizes": [
+                "S",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [
+                "Black",
+                "CadetBlue",
+                "OldLace"
+            ],
+            "price": 42.95,
+            "image": "img/products/cn13307030.jpg"
+        },
+        {
+            "id": 47,
+            "title": "Straight fit jeans",
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "colors": [],
+            "price": 59.95,
+            "image": "img/products/cn11023834.jpg"
+        },
+        {
+            "id": 48,
+            "title": "Nylon double-compartment backpack",
+            "sizes": [
+                "10L"
+            ],
+            "colors": [
+                "DodgerBlue",
+                "DimGray",
+                "DarkSlateBlue"
+            ],
+            "price": 79.95,
+            "image": "img/products/cn11714832.jpg"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+@import "bourbon";
+
+$default-font: "Quicksand", sans-serif;
+
+$grey: #cccccc;
+$background: #f5f6f7;
+$accent: #aa9b77;
+$accent-hover: #bfb499;
+$text-service: #333333;
+$text-main: #424242;
+
+
+$width-mobile: 480px;
+$width-tablet: 768px;
+$width-desktop: 1200px;
+
+$media-mobile: (min-width: $width-mobile);
+$media-tablet: (min-width: $width-tablet);
+$media-desktop: (min-width: $width-desktop);
+
+$media-only-mobile: (max-width: $width-tablet - 1);

@@ -1,0 +1,51 @@
+<section class="service">
+    <ul class="service__filter-list">
+        <li class="service__filter-item">
+            <label>
+                <input type="checkbox" ng-model="mainCtrl.categories.men">
+                <span></span>
+                <span>Men</span>
+            </label>
+        </li>
+        <li class="service__filter-item">
+            <label>
+                <input type="checkbox" ng-model="mainCtrl.categories.women">
+                <span></span>
+                <span>Women</span>
+            </label>
+        </li>
+        <li class="service__filter-item">
+            <label>
+                <input type="checkbox" ng-model="mainCtrl.categories.children">
+                <span></span>
+                <span>Children</span>
+            </label>
+        </li>
+    </ul>
+    <button class="service__button service__button--last" ng-click="mainCtrl.seeAllProducts()">See all products</button>
+</section>
+
+<section class="sort">
+    <span class="sort__title">Sort By</span>
+
+    <div class="sort__dropdown">
+        <div class="sort__select-container">
+            <select ng-model="sortProp" ng-init="sortProp = 'price'">
+                <option value="price">Price</option>
+                <option value="title">Title</option>
+            </select>
+        </div>
+        <div class="sort__arrow-down">
+            <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="display: block; fill: rgb(72, 72, 72); height: 16px; width: 16px;">
+                <path fill-rule="evenodd" d="M16.291 4.295a1 1 0 1 1 1.414 1.415l-8 7.995a1 1 0 0 1-1.414 0l-8-7.995a1 1 0 1 1 1.414-1.415l7.293 7.29 7.293-7.29z"></path>
+            </svg>
+        </div>
+    </div>
+</section>
+
+
+<section class="products">
+    <div class="products__block" ng-repeat="(key, value) in mainCtrl.categories">
+        <products-list ng-if="value" category="{{ key }}" sort-prop="{{ sortProp }}" odd="{{ $odd }}"></products-list>
+    </div>
+</section>

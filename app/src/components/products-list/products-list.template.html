@@ -1,0 +1,44 @@
+<div class="products__title" ng-class="{ 'products__title--odd': $ctrl.isOdd }">
+    {{ $ctrl.category }}
+    <hr>
+</div>
+
+<div class="products__all-pages">/ {{ $ctrl.allPages }}</div>
+
+<slick ng-if="$ctrl.products.length" class="products__slider" settings=$ctrl.settings>
+    <div ng-repeat="product in $ctrl.products | orderBy:$ctrl.sortProp">
+        <div class="products__product">
+            <header>
+                <div class="products__product__size" ng-if="product.sizes.length">
+                    <div class="products__product__dropdown">
+                        <div class="products__product__select-container">
+                            <select ng-model="productSize" ng-init="productSize = product.sizes[0]">
+                                <option ng-repeat="size in product.sizes">{{ size }}</option>
+                            </select>
+                        </div>
+                        <div class="products__product__arrow-down">
+                            <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="display: block; fill: rgb(72, 72, 72); height: 16px; width: 16px;">
+                                <path fill-rule="evenodd" d="M16.291 4.295a1 1 0 1 1 1.414 1.415l-8 7.995a1 1 0 0 1-1.414 0l-8-7.995a1 1 0 1 1 1.414-1.415l7.293 7.29 7.293-7.29z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="products__product__color">
+                    <li ng-repeat="color in product.colors" style="background-color: {{ color }}"></li>
+                </ul>
+            </header>
+            <div class="products__product__photo">
+                <img ng-src="{{ product.image }}" alt="{{ product.title }}">
+            </div>
+            <footer>
+                <div class="products__product__title">
+                    <a href="/#!/product/{{product.id}}">{{ product.title }}</a>
+                </div>
+                <div class="products__product__price">{{ product.price | currency:'€' }}</div>
+            </footer>
+        </div>
+    </div>
+</slick>
+
+<!--<div ng-click="$ctrl.push(product.id)">   </div>-->

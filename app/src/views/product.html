@@ -1,0 +1,34 @@
+<section class="service">
+    <span class="service__back-button" ng-click="productCtrl.backToMain()">Back to catalog</span>
+</section>
+
+<div class="product">
+
+    <div class="product__title">
+        <span>{{ productCtrl.product.title }}</span>
+        <hr>
+    </div>
+
+    <div class="product__detail">
+        <div class="product__photo">
+            <img ng-src="{{ productCtrl.product.image }}" alt="">
+        </div>
+        <div class="product__info">
+            <dl>
+                <dt>{{ productCtrl.product.price | currency:'€' }}</dt>
+                <dd>Price</dd>
+                <dt>
+                    <span class="color" ng-repeat="color in productCtrl.product.colors" style="background-color: {{ color }};"></span>
+                </dt>
+                <dd>Colors</dd>
+                <dt>
+                    <span ng-repeat="size in productCtrl.product.sizes">{{ size }}<span ng-if="!$last">, </span></span>
+                </dt>
+                <dd>Sizes</dd>
+            </dl>
+        </div>
+    </div>
+    
+</div>
+
+<div class="clear"></div>

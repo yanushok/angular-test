@@ -1,0 +1,23 @@
+@mixin container() {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;
+
+    @media #{$media-tablet} {
+        width: $width-tablet;
+    }
+
+    @media #{$media-desktop} {
+        width: $width-desktop;
+    }
+}
+
+@mixin main-padding() {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media #{$media-mobile} {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

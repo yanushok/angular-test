@@ -1,0 +1,119 @@
+.service{
+    @include main-padding;
+    
+    background-color: $background;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: $text-service;
+
+    @media #{$media-tablet} {
+        flex-direction: row;
+    }
+
+    &__filter-item {
+        display: inline-block;
+        font-size: em(14px);
+
+        label {
+            cursor: pointer;
+        }
+
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        input[type=checkbox] {
+            display: none;
+        }
+
+        input[type=checkbox] + span {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border: 2px solid $accent;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        input[type=checkbox] + span::after {
+            @include transition(all 0.15s ease);
+            
+            content: "\f00c";
+            font-family: 'FontAwesome';
+            color: $accent;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+        }
+
+        input[type=checkbox]:checked + span::after {
+            opacity: 1;
+        }
+
+        @media #{$media-mobile} {
+            font-size: em(18px);
+
+            & + & {
+                margin-left: 20px;
+            }
+
+            input[type=checkbox] + span {
+                margin-right: 8px;
+                width: 27px;
+                height: 27px;
+            }
+        }
+    }
+
+    &__button {
+        @include transition(all 0.2s ease);
+
+        background-color: $accent;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 16px;
+        text-transform: uppercase;
+        font-family: $default-font;
+        font-size: em(14px);
+
+        @media #{$media-mobile} {
+            padding: 18px 25px;
+        }
+
+        &:hover {
+            background-color: $accent-hover;
+        }
+
+        &--last {
+            @media #{$media-tablet} {
+                margin-left: auto;
+            }
+        }
+    }
+
+    &__back-button {
+        margin-right: auto;
+        font-size: em(18px);
+        position: relative;
+        left: 20px;
+
+        &::before {
+            content: '\f104';
+            position: absolute;
+            left: -20px;
+            top: -3px;
+            font-family: 'FontAwesome';
+            font-weight: bold;
+            font-size: em(20px);
+            vertical-align: middle;
+        }
+    }
+}
